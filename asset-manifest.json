@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.59ec0d24.chunk.css",
+    "main.js": "/portfolio/static/js/main.28a82e67.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.28a82e67.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7645ef8c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7645ef8c.js.map",
+    "static/js/2.c09a468d.chunk.js": "/portfolio/static/js/2.c09a468d.chunk.js",
+    "static/js/2.c09a468d.chunk.js.map": "/portfolio/static/js/2.c09a468d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.1719c4a7612282acd8dfe7890d10c959.js": "/portfolio/precache-manifest.1719c4a7612282acd8dfe7890d10c959.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.59ec0d24.chunk.css.map": "/portfolio/static/css/main.59ec0d24.chunk.css.map",
+    "static/js/2.c09a468d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c09a468d.chunk.js.LICENSE.txt",
+    "static/media/College.jpg": "/portfolio/static/media/College.f24577e8.jpg",
+    "static/media/Kaneki.jpg": "/portfolio/static/media/Kaneki.1b226960.jpg",
+    "static/media/Tarun.jpg": "/portfolio/static/media/Tarun.52ef3872.jpg",
+    "static/media/SCard.css": "/portfolio/static/media/reactsc.57a534ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7645ef8c.js",
+    "static/js/2.c09a468d.chunk.js",
+    "static/css/main.59ec0d24.chunk.css",
+    "static/js/main.28a82e67.chunk.js"
+  ]
+}
