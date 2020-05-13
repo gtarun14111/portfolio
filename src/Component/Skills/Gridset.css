@@ -1,0 +1,8 @@
+.gridsc {
+	display: grid;
+	grid-row: 19em;
+	grid-template-columns: repeat(auto-fit, 16em);
+	align-items: center;
+	justify-content: center;
+	margin-left: 3px;
+}
