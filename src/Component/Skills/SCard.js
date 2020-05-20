@@ -18,21 +18,17 @@ const SCard = ({ cardNo }) => {
     break;
     case 7: head = (<h5> Postgres </h5>);
     break;
+    default: ;
   }
 
   return (
       <div class="center">
         <div class="property-card">
-          <a href="#">
             <div class={`property-image sc${cardNo}`}>
-            </div></a>
+            </div>
           <div class="property-description">
             {head}
           </div>
-          <a href="#">
-            <div class="property-social-icons">
-            </div>
-          </a>
         </div>
       </div>
 );
