@@ -1,0 +1,33 @@
+.nav_bar {
+	display: flex;
+	justify-content: flex-end;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #090000;
+	margin-top: 0;
+	z-index: 100;
+}
+
+.item {
+	border: white;
+	padding: 0.2vw 2vw;
+	background-color: #090000;
+	color: white;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	transition: transform .5s;
+}
+
+.item:hover {
+	opacity: 0.5;
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.4);
+	transform: scale(1.2);
+
+}
+
+.top_item {
+	align-items: flex-start;
+	margin-right: auto;
+}

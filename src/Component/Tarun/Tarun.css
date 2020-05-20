@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.thepage {
+	margin: 0px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#myname {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10vh;
+
+}
+
+#myname {
+    position: relative;
+    z-index: 1;
+    padding: 0.5vw;
+	cursor: pointer;
+}
+
+#myname:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+	background-color: black;
+	border-radius: 10px;
+    z-index: -1;
+    transition: transform 1s;
+}
+
+#myname:hover {
+	color: white;
+}
+
+#myname:hover::after {
+    transform: scaleY(1);
+}
+
+
