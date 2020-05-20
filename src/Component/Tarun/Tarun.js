@@ -3,13 +3,6 @@ import './Tarun.css';
 
 const Tarun = ({ openAboutMe }) => {
 
-	function wait(ms){
-	   var start = new Date().getTime();
-	   var end = start;
-	   while(end < start + ms) {
-	     end = new Date().getTime();
-	  }
-	}
 	const toAbout = (event) => {
 		event.target.innerHTML = "About Me";
 	}
