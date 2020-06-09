@@ -8,6 +8,7 @@ const PCard = ({ cardNo }) => {
   // }
 
   return (
+    <div class="pcflex">
       <div class="card">
           <div class="front">
             <p>Face Detection <br />-projectbrain</p>
@@ -20,6 +21,19 @@ const PCard = ({ cardNo }) => {
               <button class="button"><a href="https://gtarun14111.github.io/projectbrain/" target="_blank">View App!</a></button>
             </div>
           </div>
+      </div>
+      <div class="card">
+          <div class="front bg2">
+            <p>TheFakeBlog <br />-A Simplistic blog</p>
+          </div>
+          <div class="back">
+            <div>
+              <p>A Simple Blog App</p>
+              <p>The app uses React.js with React router and redux as the front end. postgres for database and express as the sever using Rest APIs.</p>
+              <button class="button"><a href="https://the-fakeblog.herokuapp.com/" target="_blank">View App!</a></button>
+            </div>
+          </div>
+      </div>
       </div>
 );
 }
