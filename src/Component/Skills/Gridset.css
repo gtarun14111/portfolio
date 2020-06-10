@@ -14,9 +14,8 @@
 	grid-template-columns: 43% 43%;
 	align-items: center;
 	justify-content: center;
-	margin-left: 1px;
+	margin-left: -15vw;
 }
 	.center {
-		width: 42%;
-	}
-}
+		width: 100%;
+	}}
