@@ -9,6 +9,8 @@ const PCard = ({ cardNo }) => {
 
   return (
     <div class="pcflex">
+    {
+      cardNo === 1 ? (
       <div class="card">
           <div class="front">
             <p>Face Detection <br />-projectbrain</p>
@@ -22,6 +24,9 @@ const PCard = ({ cardNo }) => {
             </div>
           </div>
       </div>
+      )
+      :
+      (
       <div class="card">
           <div class="front bg2">
             <p>TheFakeBlog <br />-A Simplistic blog</p>
@@ -34,6 +39,8 @@ const PCard = ({ cardNo }) => {
             </div>
           </div>
       </div>
+      )
+    }
       </div>
 );
 }

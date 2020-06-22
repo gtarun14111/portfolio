@@ -11,3 +11,16 @@
 .pd {
 	padding: 0px 10vw;
 }
+
+.parent {
+  height: 75vh;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.child {
+  height: 100%;
+  margin-right: -50px; /* Maximum width of scrollbar */
+  padding-right: 50px; /* Maximum width of scrollbar */
+  overflow-y: scroll;
+}

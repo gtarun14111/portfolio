@@ -5,9 +5,14 @@ import Hding from './Hding';
 
 const Aboutme = () => {
 	return (
-		<div class="amdiv">
+		<div 
+    class="amdiv">
 			<Hding />
-			<SectionList />
+      <div className="parent">
+        <div className="child">
+    			<SectionList />
+        </div>
+      </div>
 		</div>
 		);
 }
