@@ -5,11 +5,10 @@ import ProjectList from './ProjectList';
 const Skills = () => {
 	return (
 		<div>
-				<h1> Skills </h1>
-				<SkillCards />
-				<h1> Projects </h1>
-				<ProjectList />		
-
+			<div className="skills"></div>
+			<SkillCards />
+			<div className="projects"></div>
+			<ProjectList />
 		</div>
 		)
 }

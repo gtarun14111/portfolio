@@ -4,6 +4,7 @@ import Navig from './Component/Navig/Navig';
 import Tarun from './Component/Tarun/Tarun';
 import Aboutme from './Component/Aboutme/Aboutme';
 import Skills from './Component/Skills/Skills';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 class App extends Component {
 	constructor() {
@@ -12,6 +13,8 @@ class App extends Component {
 			section: 'tarun'
 		}
 	}
+	 
+
 
 	openAboutMe = () => {
 		this.setState( {section: "aboutMe"});
@@ -25,19 +28,29 @@ class App extends Component {
 		this.setState( {section: "sp"});
 	}
 
+	setInProp = (value) => {
+		this.setState( {inProp: value});
+	}
+  	//const [inProp, setInProp] = useState(false);
+
   render() {
   return (
-    <div>
+ 	<div>
     <Navig openAboutMe = {this.openAboutMe} openTarun = {this.openTarun} openSP = {this.openSP}/>
+      <CSSTransitionGroup
+        transitionName="fade"
+        transitionEnterTimeout={300}
+        transitionLeaveTimeout={300}>
     {
     	this.state.section === 'tarun'
-    	?    <Tarun openAboutMe = {this.openAboutMe} />
+    	?    <Tarun openAboutMe = {this.openAboutMe} key="tarun" />
 	    :    
 	    ( this.state.section === 'aboutMe'
-		    ?    <Aboutme />
-		    :    <Skills />
+		    ?    <Aboutme key = "aboutme"/>
+		    :    <Skills key = "skills" />
     )
 }
+	</CSSTransitionGroup>
     </div>	
   );
 }
