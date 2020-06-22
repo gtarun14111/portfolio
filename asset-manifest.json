@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.abbd60ec.chunk.css",
-    "main.js": "/portfolio/static/js/main.11e41c88.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.11e41c88.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ed23e14e.chunk.css",
+    "main.js": "/portfolio/static/js/main.4a2ba3db.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4a2ba3db.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7645ef8c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7645ef8c.js.map",
-    "static/js/2.be8331a9.chunk.js": "/portfolio/static/js/2.be8331a9.chunk.js",
-    "static/js/2.be8331a9.chunk.js.map": "/portfolio/static/js/2.be8331a9.chunk.js.map",
+    "static/css/2.f01c5455.chunk.css": "/portfolio/static/css/2.f01c5455.chunk.css",
+    "static/js/2.5eb2280b.chunk.js": "/portfolio/static/js/2.5eb2280b.chunk.js",
+    "static/js/2.5eb2280b.chunk.js.map": "/portfolio/static/js/2.5eb2280b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1271a5714e67f9e25dbc5d272ac67cc2.js": "/portfolio/precache-manifest.1271a5714e67f9e25dbc5d272ac67cc2.js",
+    "precache-manifest.f60d25c3247affaf8556af6c330ff199.js": "/portfolio/precache-manifest.f60d25c3247affaf8556af6c330ff199.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.abbd60ec.chunk.css.map": "/portfolio/static/css/main.abbd60ec.chunk.css.map",
-    "static/js/2.be8331a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be8331a9.chunk.js.LICENSE.txt",
+    "static/css/2.f01c5455.chunk.css.map": "/portfolio/static/css/2.f01c5455.chunk.css.map",
+    "static/css/main.ed23e14e.chunk.css.map": "/portfolio/static/css/main.ed23e14e.chunk.css.map",
+    "static/js/2.5eb2280b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5eb2280b.chunk.js.LICENSE.txt",
     "static/media/College.jpg": "/portfolio/static/media/College.f24577e8.jpg",
     "static/media/Kaneki.jpg": "/portfolio/static/media/Kaneki.1b226960.jpg",
     "static/media/Tarun.jpg": "/portfolio/static/media/Tarun.52ef3872.jpg",
-    "static/media/SCard.css": "/portfolio/static/media/reactsc.57a534ac.png"
+    "static/media/SCard.css": "/portfolio/static/media/reactsc.57a534ac.png",
+    "static/media/Gridset.css": "/portfolio/static/media/skillsst.7142585e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7645ef8c.js",
-    "static/js/2.be8331a9.chunk.js",
-    "static/css/main.abbd60ec.chunk.css",
-    "static/js/main.11e41c88.chunk.js"
+    "static/css/2.f01c5455.chunk.css",
+    "static/js/2.5eb2280b.chunk.js",
+    "static/css/main.ed23e14e.chunk.css",
+    "static/js/main.4a2ba3db.chunk.js"
   ]
 }
